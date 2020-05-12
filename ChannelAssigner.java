@@ -21,7 +21,7 @@ public class ChannelAssigner implements ChannelAssignerInterface {
 		this.devicesManager = devicesManager;
 		this.accessPointsManager = accessPointsManager;
 		this.util = util;
-		
+		//TESTE
 
 		aux = this.accessPointsManager.initializeAPs(aux, this.env.getAPs());
 		this.devicesManager.setDevicesReachablesAPs(aux, this.env.getDevices(), this.env.getAPs());
